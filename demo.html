@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+      var a=10;
+      console.log(a); //10
+
+      var a="10";
+      console.log(a); //10 (string)
+      
+      console.log(typeof(+a)) //explicit typecasting
+      console.log(-(-a)); 
+      console.log(parseInt(a));
+      console.log(Number(a));
+
+      var b=20;
+      var c=b++ //(post Increment) (increment by 1);
+      console.log(b); //21
+      console.log(c); //20
+
+      var b=30;  
+      var c= ++b; //(pre Increment) (increment by 1);
+      console.log(b); // 31
+      console.log(c); //31
+
+      var a= 10;
+      var b=a--;
+
+      console.log(b); //10
+      console.log(a); //9
+
+      var a=24;
+      var b=--a;
+      console.log(a); //23
+      console.log(b); //23
+
+      var a=true;
+      console.log(!a); // false
+
+      var b=!true;
+      console.log(b); // false
+
+
+      var a=10;
+      var b=a;
+
+      console.log(a); //10
+      console.log(b); //10
+
+      var a=10;
+      var b=20;
+      var c;
+
+      c=a; // c is 10
+      a=b; // a is 20
+      b=c; // b is 10
+
+      a=a+b; // a is 30
+      b=a-b; // b is 10;
+      a=a-b; // a is 20;
+
+      a=a*b; //a is 200
+      b=a/b; // b is 10
+      a=a/b; // a is 20
+
+
+      var a=10;
+      var b="20";
+      var c=40;
+      console.log(a+b+c); //102040 (string);
+
+      var a="40";
+      var b=10;
+
+      console.log(a-b); //30
+
+       var a=10;
+       var b="14";
+       var c= " "; //0
+       console.log(a + b * c);
+
+       var a=10;
+       var b="20";
+       var c=14;
+       var d=5;
+       console.log(a*b+c-d);
+
+       var a=10;
+       var b=30;
+
+       console.log(a%b); //10
+
+       var a=10;
+       var b="5";
+       var c="hi";
+       var d="12";
+
+       console.log(a%b+c*d);
+
+       var a=10;
+       var b="";
+       var c=20;
+       console.log(a+b+c);
+
+
+       //conditional operators(<,>,<=,>=,==,===,!=,!==) //gives (or) returns the boolean value.(true 0r false);
+
+
+       var a=10;
+       var b=10;
+       console.log(a<b); // false
+
+       console.log(a<=b); //true
+       console.log(10<=30); //true
+       console.log(24<=14); // false
+       console.log(30>=26); // true
+       console.log(-8<=13); // true
+       console.log(-4<=-6); // false
+       console.log(-9>8); //false
+       console.log(-5<9); //true
+
+       console.log(10=="10"); //true
+       console.log(10==="10"); //false
+
+       console.log(20!="20"); //false;
+       console.log(10!=="20") ; //true; === opposite !==
+
+       console.log(10!=="10"); //true;
+
+       console.log(!10==10); //false;
+
+       //Logical operators(&&,||,!)
+
+       var a=10;
+       var b=false;
+       console.log(a && b); // false 
+
+       var a=false;
+       var b="10";
+
+       console.log(b && a); //false
+
+       console.log(1 && 9<9); // false
+
+       console.log(10 || true); //10
+       console.log(false || 100); //100
+
+       console.log(10 && 9<10 && 4+8 && 10+20); //30
+       console.log(2<9 && 5<=5 && 20*4); // 80
+
+       console.log(10=="10" && 6+8 && 9<9 && 10>8); //false
+
+        console.log(10+5 || "hello" || "10"==10 );//15
+        console.log(!10 || "hello" || "hi" || 8<5); //hello
+
+        console.log(8<9 || 6<9 || 8>4 ||10=="9");// true
+
+          //ternary operators(condition?exp1:exp2)
+
+          console.log(2<9?"hello":5<0)
+
+          console.log(10!="10" ?"hello":9+4); //13
+
+          console.log(9>9 ?"sindhu": 2<9); true
+          console.log(10==10 ? "10"===10 :9) //false
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+       
+      
+
+
+
+      
+
+
+
+      
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+       
+
+
+
+
+
+
+    </script>
+</body>
+</html>
